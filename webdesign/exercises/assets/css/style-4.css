@@ -11,6 +11,16 @@ input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
 
+:root{
+--fs-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+--fs-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+--fs-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+--fs-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+--fs-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+--fs-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+--fs-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+}
+
 /* Desktops */
 @media (min-width: 768px) { body { padding: 4% 20% } }
 
@@ -21,12 +31,13 @@ input, button, textarea, select { font: inherit }
 /* Web page */
 body {
     background-color: #FFFFBD;
+    font-family: "Merriweather",serif;
 }
 
 /* Main heading */
 h1 {
-    font-family: serif;    
-    font-size: 84px;
+   
+    font-size: var(--fs-xxxl);
     line-height: 1.1;
     font-weight: normal;
     color: #3434B0;
@@ -37,28 +48,27 @@ h1 {
 
 /* Small headings */
 h2 {
-    font-family: serif;    
-    font-size: 26px;
+    font-size: var(--fs-md);
     color:#3434B0;
     line-height: 1.5;
     margin-bottom: 42px;
 }
 
 /* Smaller headings */
-h3 {
-    font-family: serif;    
-    font-size: 42px;
+h3 { 
+    font-size: var(--fs-lg);
     color: #000;
     letter-spacing:-1px;
     margin-top: 40px;
     margin-bottom: 2px;
     line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
 }
 
 /* Text paragraphs */
 p {
-    font-family: serif;
-    font-size: 22px;
+    font-size: var(--fs-base);
     color: #455C80;
     line-height: 1.6;
     margin-top: 0;
@@ -71,3 +81,4 @@ img {
     /*Drop shadow effect at right and bottom of images */ 
     box-shadow: 8px 10px 8px;
 }
+
