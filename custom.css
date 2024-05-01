@@ -1,0 +1,85 @@
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited { background-color: var(--red-400) }
+
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited { color: var(--black-000) }
+.section-selector-1.theme-light { background-color: var(--indigo-100) }
+@media (min-width: 768px) { .section-selector-1 .col-3 figure.fig-shadows-box { filter: drop-shadow(8px 8px 8px rgba(243, 243, 245, 0.9)); } }
+@media (max-width: 767px) { .section-selector-1 .col-3 figure.fig-shadows-box { filter: drop-shadow(6px 6px 6px rgba(248, 249, 253, 0.9)); } }
+.section-selector-1 { background-color: var(#f8f8f8) }
+.theme-light.section-selector-1 #btn-submit { background-color: var(#f8f8f8) }
+.section-selector-1 h2 { color: var(--black-000) }
+.section-selector-1 .col-text h2 span.highlight { color: var(--gray-050) }
+.section-selector-1 .col-text p { color: var(--white-000) }
+
+footer.theme-light > h2 { color: var(#9866ed) }
+footer.theme-light > h3 { color: var(#a97ae9) }
+
+footer.theme-light .copyright { background-color: var(#FFFFFF) }
+
+
+
+
+.h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Targeting the h1 inside col-2 col-text */
+.col-2.col-text h1 {
+  font-family: 'Roboto Slab', serif; /* Change to your preferred Google Font */
+  font-size: 3rem; /* Example font size, adjust as needed */
+  font-weight: bold; /* Make the headline bold */
+  color: #151515; /* Dark grey color for the text */
+  margin-bottom: 0.5em; /* Space below the h1 */
+}
+
+/* Targeting the h2 inside col-2 col-text */
+.col-2.col-text h2 {
+  font-family: 'Poppins', sans-serif; /* Change to your preferred Google Font */
+  font-size: 1.5rem; /* Smaller than h1 */
+  font-weight: 500; /* Medium weight */
+  color: #030303; /* Slightly lighter grey color */
+  margin-bottom: 0.5em; /* Space below each h2 */
+}
+.col-2.col-text h3 {
+  font-family: 'Roboto Slab', serif; /* Change to your preferred Google Font */
+  font-size: 2rem; /* Example font size, adjust as needed */
+  font-weight: bold; /* Make the headline bold */
+  color: #151515; /* Dark grey color for the text */
+  margin-bottom: 0.5em; /* Space below the h1 */
+}
+
+/* Additional styling for emojis and special characters */
+.col-2.col-text h2 {
+  line-height: 1.2; /* Adjust line height for better readability */
+}
+
+
+
+footer.theme-light { background-color: var(--white-000) }
+footer.theme-light .copyright { background-color: var(--slate-100) }
+footer.theme-light .copyright p { color: var(--black-000) }
+footer.theme-light > ul.footer-icons li a:link i,
+footer.theme-light > ul.footer-icons li a:visited i { color: var(--black-000) }
+
+footer.theme-light > ul.footer-links li a:link,
+footer.theme-light > ul.footer-links li a:visited { text-decoration-color: var(--black-000) }
+
+footer.theme-light > ul.footer-links li a:focus,
+footer.theme-light > ul.footer-links li a:hover,
+footer.theme-light > ul.footer-links li a:active { color: var(--black-000) }
+
+footer.theme-light > ul.footer-links li a:link,
+footer.theme-light > ul.footer-links li a:visited { color: var(--orange-400) }
+
+
+
+
+
+  
+
+
+
+
