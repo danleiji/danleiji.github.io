@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <title> M O | Professional web design and digital marketing agency </title>
     <meta name="description" content="I create digital experiences to promote products, services, and events.">
 
 	<!-- Preload large image -->
-	<link rel="preload" href="assets/img/hero-image.jpg" as="image">
+	<link rel="preload" href="assets/img/testimg.jpg" as="image">
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
 
+
 	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+
 
     <!-- Font Awesome 6 icons. Delete if not using. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,6 +29,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
     <link rel="manifest" href="assets/img/site.webmanifest">
+
     <!-- Google tag (gtag.js) -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8SQRPT9WDH"></script>
    <script>
@@ -31,6 +39,8 @@
 
     gtag('config', 'G-8SQRPT9WDH');
     </script>
+
+    <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
     </head>
 
 <body>
@@ -59,8 +69,9 @@
 		<header class="theme-light cols-2-half text-center-mobile">
 		
 			<div class="col-2 col-text">
-				<h1>Professional Website Design</h1>
-				<h2>Check our portfolio</h2>
+			<h1>Professional Website Design</h1>
+            <h2>I enjoy creating innovative web solutions that enrich user experience and boost business success.📈</h2>
+            <h2>CHECK OUR PORTFOLIO👇</h2>
 		
 				<div class="container-btn">
 					<a href="#" class="btn btn-solid"><span>Contact now</span><i class="fas fa-envelope"></i></a><a href="#" class="btn btn-outline"><span>View details</span><i class="fas fa-arrow-right"></i></a>
@@ -70,7 +81,7 @@
 		
 			<div class="col-2 col-visual">
 						<figure>
-							<img src="assets/img/hero-image.jpg" alt="Placeholder image">
+							<img src="assets/img/testimg.jpg" alt="Placeholder image">
 						</figure>			
 			</div>
 		
@@ -132,17 +143,17 @@
 
     <!-- footer -->
  
-	<footer class="theme-dark text-center-desktop text-center-mobile">
+	<footer class="theme-light text-center-desktop text-center-mobile">
 
 		<h2>M O</h2>
 
-		<h3>Web Design Agency</h3>
+		<h3>Web design and digial marketing agency</h3>
 
 		<ul class="footer-links">
-			<li><a href="#">Home</a></li>
-			<li><a href="portfolio/index.html">Portfolio</a></li>
-			<li><a href="store/index.html">Store</a></li>
-            <li><a href="contact/index.html">Contact</a></li>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../portfolio/index.html">Portfolio</a></li>
+			<li><a href="../store/index.html">Store</a></li>
+            <li><a href="#">Contact</a></li>
 		</ul>
 
 		<ul class="footer-icons">
@@ -150,11 +161,29 @@
 			<li><a href="#" target="_blank"><i class="fab fa-github-square"></i></a></li>
 		</ul>
 
-		<p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
+		<p class="privacy"><a href='/ibat/projects-ui/project-home-checklist/resources/privacy'>Privacy &amp; Legal</a></p>
 
 	</footer>
 
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
+
+<!-- JavaScript for Cookie Consent Popup Message -->
+   <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+   <script>
+window.cookieconsent.initialise({
+    "palette": {
+        "popup": {
+            "background": "#000"
+        },
+        "button": {
+            "background": "#f1d600"
+        }
+    },
+    "content": {
+        "href": "username.github.io/privacy.html"
+    }
+});
+</script>
 
 </body>
 </html>
