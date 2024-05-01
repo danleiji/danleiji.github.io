@@ -4,16 +4,55 @@ header.theme-light .container-btn a.btn:nth-child(1):visited { background-color:
 header.theme-light .container-btn a.btn:nth-child(1):link,
 header.theme-light .container-btn a.btn:nth-child(1):visited { color: var(--black-000) }
 .section-selector-1.theme-light { background-color: var(--indigo-100) }
-@media (min-width: 768px) { .section-selector-1 .col-3 figure.fig-shadows-box { filter: drop-shadow(8px 8px 8px rgba(165,180,252,0.9)); } }
-@media (max-width: 767px) { .section-selector-1 .col-3 figure.fig-shadows-box { filter: drop-shadow(6px 6px 6px rgba(165,180,252,0.9)); } }
-.section-selector-1 { background-color: var(--trend-600) }
-.theme-light.section-selector-1 #btn-submit { background-color: var(#463366) }
+@media (min-width: 768px) { .section-selector-1 .col-3 figure.fig-shadows-box { filter: drop-shadow(8px 8px 8px rgba(243, 243, 245, 0.9)); } }
+@media (max-width: 767px) { .section-selector-1 .col-3 figure.fig-shadows-box { filter: drop-shadow(6px 6px 6px rgba(248, 249, 253, 0.9)); } }
+.section-selector-1 { background-color: var(#f8f8f8) }
+.theme-light.section-selector-1 #btn-submit { background-color: var(#f8f8f8) }
 .section-selector-1 h2 { color: var(--black-000) }
 .section-selector-1 .col-text h2 span.highlight { color: var(--gray-050) }
 .section-selector-1 .col-text p { color: var(--white-000) }
-footer.theme-light > h2 { color: var(#1f1235) }
-footer.theme-light > h3 { color: var(#1b1425) }
+
+footer.theme-light > h2 { color: var(#9866ed) }
+footer.theme-light > h3 { color: var(#a97ae9) }
+
 footer.theme-light .copyright { background-color: var(#FFFFFF) }
+
+
+
+.h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+footer.theme-light { background-color: var(--white-000) }
+footer.theme-light .copyright { background-color: var(--slate-100) }
+footer.theme-light .copyright p { color: var(--black-000) }
+footer.theme-light > ul.footer-icons li a:link i,
+footer.theme-light > ul.footer-icons li a:visited i { color: var(--black-000) }
+
+footer.theme-light > ul.footer-links li a:link,
+footer.theme-light > ul.footer-links li a:visited { text-decoration-color: var(--black-000) }
+
+footer.theme-light > ul.footer-links li a:focus,
+footer.theme-light > ul.footer-links li a:hover,
+footer.theme-light > ul.footer-links li a:active { color: var(--black-000) }
+
+footer.theme-light > ul.footer-links li a:link,
+footer.theme-light > ul.footer-links li a:visited { color: var(--orange-400) }
+
+
+
+
+
+  
 
 
 
