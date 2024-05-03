@@ -35,6 +35,8 @@ footer.theme-light .copyright { background-color: var(#FFFFFF) }
   margin-bottom: 0.5em; /* Space below the h1 */
 }
 
+
+
 /* Targeting the h2 inside col-2 col-text */
 .col-2.col-text h2 {
   font-family: 'Poppins', sans-serif; /* Change to your preferred Google Font */
@@ -56,6 +58,48 @@ footer.theme-light .copyright { background-color: var(#FFFFFF) }
   line-height: 1.2; /* Adjust line height for better readability */
 }
 
+p {
+  font-family: 'Open Sans', sans-serif; /* Default font for the paragraph */
+  font-size: 16px; /* Default font size */
+  color: #333; /* Default text color */
+}
+
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #FFD700; /* Set the color of the underline */
+  text-decoration-thickness: 2px; /* Set the thickness of the underline */
+  text-decoration-style: solid; /* Make the underline solid, wavy, etc. */
+}
+
+.col-2.col-text.slide-in-left-desktop h2 {
+  font-family: 'Open Sans', sans-serif; /* Change to your preferred Google Font */
+  font-size: 1.5rem; /* Smaller than h1 */
+  font-weight: 500; /* Medium weight */
+  color: #030303; /* Slightly lighter grey color */
+  margin-bottom: 0.5em; /* Space below each h2 */
+}
+
+.container-text.w-1140px h1{ 
+  font-family: 'Open Sans', serif; /* Change to your preferred Google Font */
+  font-size: 3rem; /* Example font size, adjust as needed */
+  font-weight: bold; /* Make the headline bold */
+  color: #0a0a0a; /* Dark grey color for the text */
+  margin-bottom: 0.5em; /* Space below the h1 */}
+
+  .container-text.w-1140px h2{ 
+    font-family: 'Open Sans', serif; /* Change to your preferred Google Font */
+    font-size: 1.5rem; /* Example font size, adjust as needed */
+    font-weight: bold; /* Make the headline bold */
+    color: #000000; /* Dark grey color for the text */
+    margin-bottom: 0.5em; /* Space below the h1 */}
+
+
+.responsive-image {
+  width: 100%;    /* Make the image use up 100% of the parent container's width */
+  height: auto;   /* Auto height maintains the aspect ratio */
+  display: block; /* Display block to remove any unwanted space below the image */
+}
 
 
 footer.theme-light { background-color: var(--white-000) }
@@ -72,7 +116,7 @@ footer.theme-light > ul.footer-links li a:hover,
 footer.theme-light > ul.footer-links li a:active { color: var(--black-000) }
 
 footer.theme-light > ul.footer-links li a:link,
-footer.theme-light > ul.footer-links li a:visited { color: var(--orange-400) }
+footer.theme-light > ul.footer-links li a:visited { color: var(--blue-600) }
 
 
 
